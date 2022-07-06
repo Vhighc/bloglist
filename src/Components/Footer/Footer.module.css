@@ -1,0 +1,33 @@
+.footerText>h2{
+    font-family: var(--FontsFree-Net-SFProDisplay-Heavy-1);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #2C2C2C;
+    margin-bottom: 1.5%;
+}
+.footerText>p{
+    font-family: var(--FontsFree-Net-SFProDisplay-Heavy-1);
+    font-size: 22px;
+    font-weight: 400;
+    color: #6E6E6E;
+    line-height: 32px;
+}
+.footerText{
+    text-align: center;
+}
+.dollar{
+    font-weight: 700;
+}
+.footerText>button{
+    /* text-align: center; */
+    align-items: center;
+    margin-top: 2.5%;
+    width: 97px;
+    height: 31px;
+    font-family: var(--FontsFree-Net-SFProDisplay-Heavy-1);
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: black;
+}

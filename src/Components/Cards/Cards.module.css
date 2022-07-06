@@ -1,0 +1,63 @@
+.header{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 30%;
+    gap: 3%;
+}
+
+.header>div{
+    border: 1px solid #F5F5F5;
+    padding: 10px;
+    border-radius: 5px;
+}
+.gridText>h6{
+    font-family: var(--FontsFree-Net-SFProText-Regular);
+    font-size: 12px;
+    font-weight: 500;
+    color: #6E6E6E;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.gridText>h4{
+    font-family: var(--FontsFree-Net-SFProText-Regular);
+    font-size: 18px;
+    font-weight: 700;
+    color: #2C2C2C;
+    margin-bottom: 1%;
+}
+.gridText>p{
+    color: #6E6E6E;
+    font-family: var(--FontsFree-Net-SFProText-Regular);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.gridText>h5{
+    color: #6E6E6E;
+    font-family: var(--FontsFree-Net-SFProText-Regular);
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5%;
+}
+/* .gridText>button{
+        font-family: var(--FontsFree-Net-SFProText-Regular);
+        margin-left: 75%;
+        font-size: 12px;
+        font-weight: 700;
+        color: #1473E6;
+        background-color: white;
+        border: none;
+        position: relative;
+        bottom: 22px;  
+} */
+a>button{
+    font-family: var(--FontsFree-Net-SFProText-Regular);
+    margin-left: 75%;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1473E6;
+    background-color: white;
+    border: none;
+    position: relative;
+    bottom: 22px;  
+}

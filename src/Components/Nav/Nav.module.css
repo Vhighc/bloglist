@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 1%;
+}
+.navImages{
+    margin-left: 71%;
+    margin-top: 2%;
+    width: 15%;
+}
+.navImages>img{
+    margin-left: 2%;
+}
+.dot{
+    position: relative;
+    bottom: 15%;
+}

@@ -1,0 +1,46 @@
+.ryan{
+    font-family: var(--FontsFree-Net-SFProText-Regular);
+    font-size: 12px;
+    font-weight: 500;
+    color: #4B4B4B;
+    margin-left: 22%;
+}
+.month{
+    font-family: var(--FontsFree-Net-SFProText-Regular);
+    font-size: 12px;
+    font-weight: 500;
+    color: #6E6E6E;
+    margin-left: 0.5%;
+}
+.start{
+    margin: 5% 0 1% 0;
+}
+.heading>h2{
+    font-family: var(--FontsFree-Net-SFProDisplay-Heavy-1);
+    font-size: 32px;
+    font-weight: 900;
+    color: #2C2C2C;
+    margin: 0 0 1.5% 22%;
+}
+.heading>p{
+    font-family: var(--FontsFree-Net-SFProText-Regular);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-left: 22%;
+    width: 55%;
+}
+.picCont{
+    margin: 5% 0 5% 0;
+    text-align: center;
+}
+.heading :nth-child(7){
+    margin-top: 1.5%;
+}
+.heading>h3{
+    font-family: var(--FontsFree-Net-SFProDisplay-Heavy-1);
+    font-size: 24px;
+    font-weight: 900;
+    color: #2C2C2C;
+    margin: 5% 0 1.5% 7%;
+}
