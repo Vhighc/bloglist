@@ -5,11 +5,12 @@ import color from '../../Assets//Images/cssColor.svg'
 import variable from '../../Assets//Images/cssVar.svg'
 import { Link } from 'react-router-dom';
 
-const Cards = () => {
+const Cards = (props) => {
+  const {onAdd} = props;
   return (
     <div className={classes.header}>
-      {data.map((item, i) => (  
-      <div>
+      {data.map((item) => (  
+      <div key={item.id}>
         <img src={item.image} alt={grid} />
         <div className={classes.gridText}>
           <h6>{item.title}</h6>
@@ -17,7 +18,7 @@ const Cards = () => {
           <p>{item.content}</p>
           <h5>{item.readTime}</h5>
           <Link to="/details">
-          <button>
+          <button onClick={() => onAdd(item)}>
             Read Full 
             <img src={item.imageTwo} alt={arrow} />
           </button> 
@@ -33,6 +34,7 @@ export default Cards;
 
    const data =[
     {
+      id: '1',
       title: 'Front-end . 1 month Ago',
       subTitle: 'Css Grid',
       image: grid,
@@ -41,6 +43,7 @@ export default Cards;
       imageTwo: arrow
     },
     {
+      id: '2',
       title: 'Front-end . 2 month Ago',
       subTitle: 'Colors in Css',
       image: color,
@@ -49,6 +52,7 @@ export default Cards;
       imageTwo: arrow 
     },
     {
+      id: '3',
       title: 'Front-end . 2 month Ago',
       subTitle: 'Css Variables',
       image: variable,

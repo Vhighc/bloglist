@@ -3,7 +3,8 @@ import cssGrid from '../..//Assets///Images//cssGrid.svg'
 import Cards from '../../Components/Cards/Cards.js'
 import classes from './Details.module.css'
 
-const Details = () => {
+const Details = (props) => {
+  const { addItems } = props;
   return (
     <div>
         <div className={classes.heading}>
@@ -30,9 +31,11 @@ const Details = () => {
                 Erat pellentesque adipiscing commodo elit at imperdiet.
                 Quis risus sed vulputate odio ut.
                 Nulla aliquet enim tortor at auctor urna.</p>
+                {addItems.map((item) =>(
                 <div className={classes.picCont}>
-                    <img src={cssGrid} alt={cssGrid} />
+                    <img src={item.image} alt={cssGrid} />
                 </div>
+                ))}
                 <p>Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Nunc non blandit massa enim. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat.

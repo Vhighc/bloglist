@@ -4,7 +4,8 @@ import Opt from '../../Components/Opt/Opt.js'
 import Cards from '../../Components/Cards/Cards.js'
 import Footer from '../../Components/Footer/Footer.js'
 
-const Landing = () => {
+const Landing = (props) => {
+  const {onAdd} = props
   return (
     <div>
       <div className={classes.navigate}>
@@ -14,9 +15,9 @@ const Landing = () => {
       <Opt />
       </div>
       <div className={classes.cssCards}>
-      <Cards />
+      <Cards onAdd={onAdd}/>
       </div>
-      <Cards />
+      <Cards onAdd={onAdd}/>
       <div className={classes.foot}>
         <Footer />
       </div>
